@@ -110,14 +110,7 @@ div {
       display: block;
       font-weight: normal; }
     #sidebar .widget .follow {
-      float: right;
-      position: relative;
-      padding-top: 2px; }
-      #sidebar .widget .follow li {
-        float: left;
-        margin-left: 8px; }
-        #sidebar .widget .follow li a:hover i:before {
-          color: #fff; }
+      font-size: font-icon-profile-size; }
     #sidebar .widget .comments-title {
       color: #6E7173;
       line-height: 2.7;
