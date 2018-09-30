@@ -110,15 +110,15 @@ div {
       display: block;
       font-weight: normal; }
     #sidebar .widget .widget-follow {
-      float: right;
+      float: left;
       position: relative;
       padding-top: 2px; }
       #sidebar .widget .widget-follow li {
         float: left;
         margin-left: 8px; }
       #sidebar .widget .widget-follow i {
-        font-size: font-icon-profile-size;
-        width: font-icon-profile-size; }
+        font-size: 2em;
+        width: 2em; }
     #sidebar .widget .comments-title {
       color: #6E7173;
       line-height: 2.7;
