@@ -111,9 +111,10 @@ div {
       font-weight: normal; }
     #sidebar .widget .widget-follow {
       color: #6E7173;
+      line-height: 1;
       margin-top: 0;
-      font-size: 2em;
-      display: block;
+      font-size: 20px;
+      display: inline;
       font-weight: normal; }
     #sidebar .widget .comments-title {
       color: #6E7173;
