@@ -110,13 +110,15 @@ div {
       display: block;
       font-weight: normal; }
     #sidebar .widget .widget-follow {
-      color: #6E7173;
-      line-height: 2.7;
-      margin-top: 0;
-      font-size: 20px;
-      border-bottom: 1px solid #ddd;
-      display: block;
-      font-weight: normal; }
+      float: right;
+      position: relative;
+      padding-top: 2px; }
+      #sidebar .widget .widget-follow li {
+        float: left;
+        margin-left: 8px; }
+      #sidebar .widget .widget-follow i {
+        font-size: font-icon-profile-size;
+        width: font-icon-profile-size; }
     #sidebar .widget .comments-title {
       color: #6E7173;
       line-height: 2.7;
