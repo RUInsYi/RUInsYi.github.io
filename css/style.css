@@ -114,7 +114,7 @@ div {
       line-height: 1;
       margin-top: 0;
       font-size: 20px;
-      display: inline-table;
+      display: inline;
       font-weight: normal; }
     #sidebar .widget .comments-title {
       color: #6E7173;
