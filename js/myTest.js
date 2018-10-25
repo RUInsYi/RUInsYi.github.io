@@ -3,7 +3,7 @@
   
   // sidebar slide
   $('.sidebar-toggle').click(function(e){
-    $('.menu-sidebar').toggleClass('in');
+    $('#menu-sidebar').toggleClass('in');
   });
   
   /*
