@@ -16,7 +16,7 @@ a:focus {
   outline: auto;
 }
 /*upon fork*/
-nav a {
+#menu-inner a {
   display: block;
 }
 /*  sidebar  */
