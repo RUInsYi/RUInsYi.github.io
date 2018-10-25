@@ -11,5 +11,4 @@
     $('.menu-sidebar').removeClass('in');
   });
   */
-}
-)
+})();

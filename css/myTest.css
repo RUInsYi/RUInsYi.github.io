@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .body_container {
   padding: 0;
   max-width: 1150px;
@@ -57,6 +60,9 @@ a:focus {
     background-color: #333;
     padding: 5px 10px;
   }
+  #mobile-header:hover {
+    color: #cfe3cb;
+  }
   #mobile-header .sidebar-toggle {
     font-size: 32px;
     line-height: 32px;
@@ -72,8 +78,8 @@ a:focus {
     border: 1px solid transparent;
     border-radius: 4px;
   }
-  #mobile-header .sidebar-toggle:hover {
-    color: #cfe3cb;
+  #mobile-header .sidebar-toggle:focus {
+    outline: 0;
   }
 }
 /*  bottom-outer  */
