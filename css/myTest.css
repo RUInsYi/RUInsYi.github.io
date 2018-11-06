@@ -147,6 +147,44 @@ template {
 [hidden] {
   display: none;
 }
+/* mian layout */
+#main-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+#main-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 400px;
+  bottom: 0;
+  height: 100%;
+  padding: 20px 40px 0;
+  overflow: auto;
+  word-wrap: break-word;
+}
+#bottom-outer {
+  padding: 20px 0;
+}
+@media screen and (max-width: 768px) {
+  #main-container {
+    top: 45px;
+    left: 0px;
+    bottom: 0;
+    height: auto;
+  }
+  #main-content {
+    left: 0;
+    bottom: 0;
+    height: auto;
+    padding: 10px 10px;
+  }
+}
 * {
   box-sizing: border-box;
 }
